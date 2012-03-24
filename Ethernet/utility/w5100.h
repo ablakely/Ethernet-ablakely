@@ -13,8 +13,7 @@
 #include <avr/pgmspace.h>
 #include <SPI.h>
 
-/* this is probably a bad idea, but we will see. */
-#define MAX_SOCK_NUM 10
+#define MAX_SOCK_NUM 4
 
 typedef uint8_t SOCKET;
 
