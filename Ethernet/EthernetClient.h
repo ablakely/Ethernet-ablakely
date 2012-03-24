@@ -24,6 +24,7 @@ public:
   virtual void stop();
   virtual uint8_t connected();
   virtual uint8_t getSocket(void);
+  virtual uint8_t *getRemoteIP(uint8_t *remoteIP);
   virtual uint8_t *getRemoteIP(uint8_t s, uint8_t *remoteIP);
   virtual operator bool();
 

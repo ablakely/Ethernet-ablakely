@@ -161,6 +161,12 @@ uint8_t EthernetClient::getSocket(void) {
 	return _sock;
 }
 
+uint8_t *EthernetClinet::getRemoteIP(uint8_t *remoteIP)
+{
+  W5100.getRemoteIPAddress(_sock, remoteIP);
+  return remoteIP;
+}
+
 uint8_t *EthernetClient::getRemoteIP(uint8_t s, uint8_t *remoteIP)
 {
   W5100.getRemoteIPAddress(s, remoteIP);
