@@ -4,3 +4,17 @@ Modifications:
  * client.getRemoteIP(uint8_t sock, uint8_t *ip); - This allows you to get the clients IP address. (FINALLY!)
  * client.getSocket(); - This allows you to export your sockets from the EthernetClient class. (use Client(socket) to import)
 
+
+To Install:
+ Just replace the Ethernet/ folder in $arduinodir/libraries/Ethernet/ with the one in this folder.
+ If you have any changes to your $arduinodir/libraries/Ethernet/ just merge the two, I so far have only modifyed:
+    * Ethernet/utility/w5100.cpp
+    * Ethernet/utiliyy/w5100.h
+    * Ethernet/EthernetClient.cpp
+    * Ethernet/EthernetClient.h
+
+License:
+  The code is under GPL unless specified otherwise (usually in the comments of the code).
+
+Contact:
+  I may be reached by email: aaron-at-ephasic.org or on IRC: irc://irc.alphachat.net:6667/#ephasic
