@@ -1,6 +1,6 @@
 These are my modifications to the Ethernet library for Arduino.
 
 Modifications:
-	* client.getRemoteIP(uint8_t sock, uint8_t *ip); - This allows you to get the clients IP address. (FINALLY!)
-	* client.getSocket(); - This allows you to export your sockets from the EthernetClient class. (use Client(socket) to import)
+ * client.getRemoteIP(uint8_t sock, uint8_t *ip); - This allows you to get the clients IP address. (FINALLY!)
+ * client.getSocket(); - This allows you to export your sockets from the EthernetClient class. (use Client(socket) to import)
 
